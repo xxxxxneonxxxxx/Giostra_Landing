@@ -1,6 +1,6 @@
 import React from "react";
-import { services } from "../../../../saitkiril/src/config/config";
-import strelka from "../../../../saitkiril/src/config/img/strelka.svg";
+import { services } from "../../config/config";
+import strelka from "../../config/img/strelka.svg";
 import './services.css'
 
 export default function Services() {

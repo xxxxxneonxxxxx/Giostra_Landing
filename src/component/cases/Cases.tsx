@@ -1,5 +1,5 @@
 import React from "react";
-import { casesInfo } from "../../../../saitkiril/src/config/config";
+import { casesInfo } from "../../config/config";
 import './cases.css';
 
 export default function Cases() {

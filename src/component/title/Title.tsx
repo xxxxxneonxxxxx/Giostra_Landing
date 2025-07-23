@@ -2,7 +2,8 @@ import React from "react";
 import title from './img/title.svg';
 import titleSectionFeatureImg from './img/title-section__feature-img.svg';
 import './title.css'
-import { numberOfSpecialists, sloganTitle, stack } from '../../../../saitkiril/src/config/config';
+import { numberOfSpecialists, sloganTitle } from '../../config/config';
+import stackBg from './img/stack.svg';
 
 export default function Title() {
     return (
@@ -30,7 +31,8 @@ export default function Title() {
                 <img src={title} alt="Title" className="title-section__image" />
                 <div className="title-section__visual-block__bottom">
                     <div className="title-section__features">
-                        <div className="title-section__feature">
+                        <div className="title-section__feature" style={{    background: "#1E1F26"
+                        }}>
                             <label className="title-section__feature-name">
                                 {numberOfSpecialists.name}
                             </label>
@@ -52,18 +54,11 @@ export default function Title() {
 
                     <div className="title-section__stack">
                         <label className="title-section__stack-title">ЧТО МЫ<br />УМЕЕМ?</label>
-                        <div className="title-section__stack-list">
-                            {stack.map((item:{name: string; rotate: number; top: number; left: number; }, index:number) => (
-                                <div key={index} className="title-section__stack-item">
-                                    <p style={{
-                                        position: "absolute",
-                                        transform:`rotate(${item.rotate}deg)`,
-                                        top: `${item.top}px`,
-                                        left: `${item.left}px`,
-                                    }}>{item.name}
-                                    </p>
-                                </div>
-                            ))}
+                        <div style={{
+                            maxHeight: '366px',
+                            maxWidth: '388px',
+                        }}>
+                            <img src={stackBg}/>
                         </div>
                     </div>
                 </div>

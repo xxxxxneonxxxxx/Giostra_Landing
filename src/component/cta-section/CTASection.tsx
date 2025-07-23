@@ -1,5 +1,5 @@
 import React from 'react'
-import strelka from '../../../../saitkiril/src/config/img/strelka.svg'
+import strelka from '../../config/img/strelka.svg'
 import bgCTA from './img/bgCTA.svg'
 import './ctaSection.css'
 

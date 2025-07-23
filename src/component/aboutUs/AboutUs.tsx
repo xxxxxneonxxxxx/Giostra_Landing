@@ -2,6 +2,7 @@ import React from "react";
 import bg1 from './img/bg1.svg'
 import bg2 from './img/bg2.svg'
 import bg3 from './img/bg3.jpg'
+
 import './aboutUs.css'
 export default function AboutUs() {
     return (
