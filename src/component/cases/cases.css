@@ -1,0 +1,84 @@
+.cases {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.cases__title {
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.cases__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+/* Левая и правая высокие карточки */
+.cases__list__one,.cases__list__four {
+    flex: 0 0 35%;
+    height: 636px;
+    border-radius: 26px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.cases__list__four{
+    flex: 0 0 25%;
+
+}
+
+/* Средняя колонка */
+.cases__list_two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    flex: 0 0 606px;
+    height: 636px;
+}
+
+.cases__list_two_top,
+.cases__list_two_bottom {
+    height: 65%;
+    border-radius: 26px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.cases__list_two_bottom{
+    height: 35%;
+}
+
+.case__content {
+    position: absolute;
+    bottom: 0px;
+    left: 24px;
+    right: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.case__name {
+    font-size: 38px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.case__description {
+    width: 70%;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+}

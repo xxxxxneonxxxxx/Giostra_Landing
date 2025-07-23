@@ -1,0 +1,77 @@
+.cta-section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top:1%;
+}
+
+.cta-section__background {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 105%;
+    height:auto;
+    object-fit: cover;
+    z-index: 0;
+    pointer-events: none;
+    user-select: none;
+}
+
+.cta-section__content {
+    position: relative;
+    z-index: 1;
+    margin-top: 12%;
+    max-width: 960px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.cta-section__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #000;
+    margin: 0;
+}
+
+.cta-section__description {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 150%;
+    color: #333;
+    margin: 0;
+}
+
+.cta-section__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 298px;
+    height: 48px;
+    padding: 12px 16px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.cta-section__button img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.cta-section__button:hover {
+    background-color: #f5f5f5;
+}
