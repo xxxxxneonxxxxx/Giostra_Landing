@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/Giostra_Landing/static/css/main.57a2633e.css",
-    "main.js": "/Giostra_Landing/static/js/main.be60fb85.js",
+    "main.css": "/Giostra_Landing/static/css/main.3356bfbb.css",
+    "main.js": "/Giostra_Landing/static/js/main.8d14d4d0.js",
     "static/js/453.8f8537dd.chunk.js": "/Giostra_Landing/static/js/453.8f8537dd.chunk.js",
     "static/media/bg1.svg": "/Giostra_Landing/static/media/bg1.fc2ffcb09fda3c4941e97d711fc22a1a.svg",
     "static/media/contact.svg": "/Giostra_Landing/static/media/contact.f4fb1c9a0a9516830263a387d17b98f0.svg",
-    "static/media/stack.svg": "/Giostra_Landing/static/media/stack.1aa6467bb4af2fcd83881b1456e394ab.svg",
     "static/media/bg3.jpg": "/Giostra_Landing/static/media/bg3.0bdd87bb1627d757447a.jpg",
+    "static/media/stack2.svg": "/Giostra_Landing/static/media/stack2.af88ef926702ceb98ca489fabe776da1.svg",
+    "static/media/stack8.svg": "/Giostra_Landing/static/media/stack8.76ed275dacf874bd0d91cbec8cf5bd4c.svg",
+    "static/media/stack9.svg": "/Giostra_Landing/static/media/stack9.6c20f022ea80d06316c62397a6f933df.svg",
+    "static/media/stack3.svg": "/Giostra_Landing/static/media/stack3.eb353cf0da8ccbbfede94e298a73cf3c.svg",
+    "static/media/stack10.svg": "/Giostra_Landing/static/media/stack10.74de6e9aa135e124e37088aed19f4c75.svg",
+    "static/media/stack1.svg": "/Giostra_Landing/static/media/stack1.b9bbd2b9c2fe6f2310ab926be3988c95.svg",
+    "static/media/stack7.svg": "/Giostra_Landing/static/media/stack7.202600b891a777440e33d48cb46fb17e.svg",
+    "static/media/stack5.svg": "/Giostra_Landing/static/media/stack5.84ad240de2b13a22f9ead06368146e7f.svg",
+    "static/media/stack4.svg": "/Giostra_Landing/static/media/stack4.ffef628707bd780b711e1d052ffb440a.svg",
     "static/media/bg2.svg": "/Giostra_Landing/static/media/bg2.0e83bca412feaece3309ab43e0f85eae.svg",
+    "static/media/stack6.svg": "/Giostra_Landing/static/media/stack6.56f2b2217cb5de3edf67b9c2cc5611c2.svg",
     "static/media/item2bg.svg": "/Giostra_Landing/static/media/item2bg.18a9c2a5e877bf6747d351d1d502f6a0.svg",
     "static/media/item4bg.svg": "/Giostra_Landing/static/media/item4bg.dd560b9717cf17e6b69b68498b2994c8.svg",
     "static/media/item3bg.svg": "/Giostra_Landing/static/media/item3bg.11ab838c1afde63295ce4cb2c1fc3951.svg",
@@ -19,12 +28,12 @@
     "static/media/strelkaWhite.svg": "/Giostra_Landing/static/media/strelkaWhite.ac7ba71c27687811de1e27e39e196641.svg",
     "static/media/title-section__feature-img.svg": "/Giostra_Landing/static/media/title-section__feature-img.625b4b1ac5ff020d3f5f679b9d3a8932.svg",
     "static/media/strelka.svg": "/Giostra_Landing/static/media/strelka.1375ae10e4555c8ac4ba7b0cbb072938.svg",
-    "main.57a2633e.css.map": "/Giostra_Landing/static/css/main.57a2633e.css.map",
-    "main.be60fb85.js.map": "/Giostra_Landing/static/js/main.be60fb85.js.map",
+    "main.3356bfbb.css.map": "/Giostra_Landing/static/css/main.3356bfbb.css.map",
+    "main.8d14d4d0.js.map": "/Giostra_Landing/static/js/main.8d14d4d0.js.map",
     "453.8f8537dd.chunk.js.map": "/Giostra_Landing/static/js/453.8f8537dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57a2633e.css",
-    "static/js/main.be60fb85.js"
+    "static/css/main.3356bfbb.css",
+    "static/js/main.8d14d4d0.js"
   ]
 }
