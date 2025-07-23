@@ -19,24 +19,6 @@ type slogan={
 export const numberOfSpecialists:slogan={name:'Растем',description:"25 опытных специалистов наивысшего класса из разных сфер"}
 export const sloganTitle:slogan={name:'Решаем',description:"Не просто продаем, а решаем проблемы вашего бизнеса"}
 
-export const stack: {
-    name: string;
-    rotate: number;
-    top: number;
-    left: number;
-}[] = [
-    { name: 'DevOps', rotate: -43.11, top: 22, left: -10 },
-    { name: 'Grafical', rotate: 22.77, top: 16, left: 222 },
-    { name: 'Data-Analys', rotate: 31.41, top: 38, left: 169.5 },
-    { name: 'Animate', rotate: -15.7, top: 80.8, left: 49.93 },
-    { name: 'UI/UX', rotate: 5.57, top: 133, left: 161 },
-    { name: 'SEO', rotate: 11.49, top: 151, left: -4 },
-    { name: 'Backend', rotate: -19.23, top: 191, left: 29 },
-    { name: 'Moution', rotate: 39.7, top: 193.3, left: 217.02 },
-    { name: '3D-Design', rotate: 29.36, top: 246.18, left: 178.57 },
-    { name: 'Frontend', rotate: 0, top: 303, left: 0 }
-];
-
 
 
 /* Services */
