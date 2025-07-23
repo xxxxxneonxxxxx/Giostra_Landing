@@ -2,14 +2,14 @@
     width: 95%;
     margin-left: 2.5%;
     position: relative;
+    color: var(--main--text--color);
+    background-color: var(--main-bg--color);
 }
 
 .cases__title {
-    font-family: 'Unbounded', sans-serif;
     font-weight: 400;
     font-size: 48px;
     line-height: 60px;
-    color: #000000;
     margin-bottom: 32px;
 }
 
@@ -19,7 +19,6 @@
     position: relative;
 }
 
-/* Левая карточка */
 .cases__list__one {
     width: 35%;
     height: 100%;
@@ -80,8 +79,8 @@
 
 .case__name {
     position: absolute;
-    top: 80%;
-    font-size: 38px;
+    top: 82%;
+    font-size: 48px;
     font-weight: 400;
     color: #000000;
     margin: 0 0 8px 0;
@@ -89,9 +88,23 @@
 
 .case__description {
     position: absolute;
-    top: 88%;
+    top: 92%;
     width: 75%;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     color: #000000;
+}
+
+@media (max-width: 1700px) {
+    .case__description{
+        font-size: 15px;
+    }
+}
+@media (max-width: 1400px) {
+    .case__description{
+        font-size: 13px;
+    }
+    .case__name {
+        font-size: 42px;
+    }
 }

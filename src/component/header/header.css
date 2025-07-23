@@ -4,15 +4,14 @@
     align-items: center;
     width: 95%;
     margin-left: 2.5%;
-    background-color: white;
-    border-bottom: 1px solid #eee;
+    background-color: var(--main-bg--color);
+    border-bottom: 1px solid var(--main-bg--color);
 }
 
 .header__logo {
-    font-family: 'Unbounded', sans-serif;
     font-size: 32px;
     font-weight: 700;
-    color: #000;
+    color: var(--main--text--color);
 }
 
 .header__menu {
@@ -27,6 +26,6 @@
 .header__bar {
     width: 100%;
     height: 3px;
-    background-color: #000;
+    background-color: var(--main--text--color);
     border-radius: 2px;
 }

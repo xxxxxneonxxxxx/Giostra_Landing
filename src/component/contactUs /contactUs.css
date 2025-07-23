@@ -6,7 +6,8 @@
     margin-top: 50px;
     margin-left: 2.5%;
     height: auto;
-    background: #A7A7E3;
+    background: var(--contactUs--bg--color);
+    color: var(--contactUs-text--color);
     border-radius: 36px;
     overflow: hidden;
 }
@@ -23,7 +24,6 @@
 .contact__title {
     font-size: 36px;
     font-weight: 500;
-    color: #fff;
     margin-bottom: 40px;
 }
 
@@ -44,7 +44,7 @@
 
 .contact__input::placeholder,
 .contact__textarea::placeholder {
-    color: #666;
+    color: var(--contactUs--placeholder--color);
     font-weight: 400;
 }
 
@@ -69,10 +69,10 @@
     align-self: flex-start;
     padding: 12px 24px;
     background: none;
-    border: 1px dashed white;
+    border: 1px dashed var(--contactUs-button--bg--color);
+    color: var(--contactUs-button--bg--color);
     border-radius: 40px;
     font-size: 16px;
-    color: white;
     cursor: pointer;
     transition: background 0.3s;
 }
@@ -83,7 +83,7 @@
 
 .contact__image-block {
     flex: 1;
-    background: #fff;
+    background: var(--main-bg--color);
     display: flex;
     align-items: center;
     justify-content: center;

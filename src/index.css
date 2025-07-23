@@ -27,3 +27,23 @@ code {
   line-height: 1.2;
   color: #000;
 }
+
+:root{
+  --main--text--color: #000;
+  --main-bg--color: #FFFFFF;
+
+  --title-button-bg--color: #1E1F26;
+  --title-button-text--color: #FFFFFF;
+
+  --contactUs--bg--color: #A7A7E3;
+  --contactUs-text--color: #FFFFFF;
+  --contactUs--placeholder--color:  #666;
+  --contactUs-button--bg--color: #FFFFFF ;
+
+  --services-text--color: #FFFFFF;
+
+  --title-subtitle--color: #555;
+  --title-bg--color: #F5F6FA;
+  --title-border--color:#D3D6E5;
+
+}

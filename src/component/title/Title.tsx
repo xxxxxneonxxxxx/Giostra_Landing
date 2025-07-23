@@ -1,11 +1,26 @@
-import React from "react";
+import React,{useState} from "react";
 import title from './img/title.svg';
 import titleSectionFeatureImg from './img/title-section__feature-img.svg';
 import './title.css'
 import { numberOfSpecialists, sloganTitle } from '../../config/config';
-import stackBg from './img/stack.svg';
+import stackBg1 from './img/stack1.svg';
+import stackBg2 from './img/stack2.svg';
+import stackBg3 from './img/stack3.svg';
+import stackBg4 from './img/stack4.svg';
+import stackBg5 from './img/stack5.svg';
+import stackBg6 from './img/stack6.svg';
+import stackBg7 from './img/stack7.svg';
+import stackBg8 from './img/stack8.svg';
+import stackBg9 from './img/stack9.svg';
+import stackBg10 from './img/stack10.svg';
+
+import {motion} from 'framer-motion';
+
+
+
 
 export default function Title() {
+    const [stacksBg,setStacksBg] = useState<string[]>([stackBg1,stackBg2,stackBg3,stackBg4,stackBg5,stackBg6,stackBg7,stackBg8,stackBg9,stackBg10]);
     return (
         <div className="title-section">
             <div className="title-section__text-block">
@@ -55,10 +70,22 @@ export default function Title() {
                     <div className="title-section__stack">
                         <label className="title-section__stack-title">ЧТО МЫ<br />УМЕЕМ?</label>
                         <div style={{
-                            maxHeight: '366px',
-                            maxWidth: '388px',
+                            height: '366px',
+                            width: '388px',
                         }}>
-                            <img src={stackBg}/>
+                            {stacksBg.map((item, i) => {
+                                return (
+                                    <motion.div
+                                        key={i}
+                                        className={'title-section__stack-img'}
+                                        initial={{y:-200, opacity: 0 }}
+                                        animate={{y:0,opacity:1}}
+                                        transition={{ duration: 1, delay: i * 0.3 }}
+                                    >
+                                        <img src={item} />
+                                    </motion.div>
+                                )
+                            })}
                         </div>
                     </div>
                 </div>
