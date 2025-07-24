@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import contact from './img/contact.svg';
 import './contactUs.css';
-
+import {useScroll} from '../../config/hooks/hookLocate'
 export default function ContactUs() {
     const [formData, setFormData] = useState({
         name: '',
@@ -17,7 +17,6 @@ export default function ContactUs() {
         phone: '',
         email:''
     });
-
     const validate = () => {
         const newErrors: typeof errors = {
             name: '',
@@ -46,7 +45,7 @@ export default function ContactUs() {
     };
 
     return (
-        <section className="contact">
+        <section id={'contactUs'} className="contact">
             <div className="contact__form-block">
                 <h2 className="contact__title">Свяжитесь с нами</h2>
                 <form className="contact__form" onSubmit={handleSubmit}>

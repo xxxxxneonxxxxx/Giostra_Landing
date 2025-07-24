@@ -8,8 +8,11 @@ import Cases from "./component/cases/Cases";
 import ContactUs from "./component/contactUs /ContactUs";
 import Header from "./component/header/Header";
 import Footer from "./component/footer/Footer";
+import {useScroll} from "./config/hooks/hookLocate";
 export default function App() {
-  return (
+    useScroll()
+
+    return (
       <div className="App">
           <Header />
         <Title />

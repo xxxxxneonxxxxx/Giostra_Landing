@@ -5,6 +5,11 @@
     align-items: center;
     width: 95%;
     margin-left: 2.5%;
+
+}
+.footer__nav-item{
+    text-decoration: none;
+    color: var(--main--text--color);
 }
 .footer__nav{
     display: flex;

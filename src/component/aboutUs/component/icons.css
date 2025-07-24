@@ -1,7 +1,7 @@
 .about-us__icons {
     position: relative;
     overflow: clip;
-    width: 32%;
+    width: 428px;
     height: 528px;
     background: #1E1F26;
     border-radius: 36px;
@@ -9,9 +9,21 @@
 
 .about-us__icons img {
     position: absolute;
-    width: 150%;
-    top: 20px;
+    width: 528px;
+    top: 50px;
     left: 20px;
-    height: auto;
+    height: 528px;
     min-height: 528px;
+}
+.about-us__icons-text {
+    position: absolute;
+    z-index: 2;
+    left: 20px;
+    top: 20px;
+    width: 351px;
+    height: 40px;
+
+    font-size: 24px;
+    color: #fff;
+    pointer-events: none;
 }

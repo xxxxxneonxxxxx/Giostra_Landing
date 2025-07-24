@@ -6,7 +6,7 @@ import Icons from "./component/Icons";
 import './aboutUs.css'
 export default function AboutUs() {
     return (
-        <section className="about-us">
+        <section id={'adoutUs'}className="about-us">
             <label className={'title'}>О нас</label>
             <div className={'about-us__content'}>
                 <div
@@ -45,9 +45,7 @@ export default function AboutUs() {
                             backgroundPosition: 'center'
                         }}
                     >
-
                     </div>
-
                 </div>
                 <Icons/>
             </div>

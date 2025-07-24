@@ -1,6 +1,7 @@
 import React from 'react';
 import { footerConst } from "../../config/config";
 import './footer.css'
+import {Link} from "react-router-dom";
 export default function Footer() {
     return (
         <footer className="footer">
@@ -9,9 +10,9 @@ export default function Footer() {
             </h1>
 
             <div className="footer__nav">
-                <label className="footer__nav-item">главная</label>
-                <label className="footer__nav-item">услуги</label>
-                <label className="footer__nav-item">о нас</label>
+                <Link to={'/#title'} className="footer__nav-item">главная</Link>
+                <Link to={'/#service'} className="footer__nav-item">услуги</Link>
+                <Link to={'/#adoutUs'} className="footer__nav-item">о нас</Link>
                 <label className="footer__nav-item">вопросы</label>
             </div>
 

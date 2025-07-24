@@ -13,6 +13,7 @@ import stackBg7 from './img/stack7.svg';
 import stackBg8 from './img/stack8.svg';
 import stackBg9 from './img/stack9.svg';
 import stackBg10 from './img/stack10.svg';
+import { Link } from 'react-router-dom';
 
 import {motion} from 'framer-motion';
 
@@ -22,7 +23,7 @@ import {motion} from 'framer-motion';
 export default function Title() {
     const [stacksBg,setStacksBg] = useState<string[]>([stackBg1,stackBg2,stackBg3,stackBg4,stackBg5,stackBg6,stackBg7,stackBg8,stackBg9,stackBg10]);
     return (
-        <div className="title-section">
+        <div id={"title"} className="title-section">
             <div className="title-section__text-block">
                 <label className="title-section__main-title">
                     РАЗРАБОТКА<br />
@@ -33,9 +34,9 @@ export default function Title() {
                     Студия полного цикла разработки веб-приложений под любые цели и бюджет
                 </label>
                 <div className="title-section__buttons">
-                    <button className="button title-section__contact-button">
+                    <Link to="/#contactUs" className="button title-section__contact-button">
                         Связаться
-                    </button>
+                    </Link>
                     <label className="title-section__more-link">
                         Узнать больше
                     </label>

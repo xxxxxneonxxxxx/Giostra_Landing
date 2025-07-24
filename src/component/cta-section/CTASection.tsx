@@ -2,6 +2,7 @@ import React from 'react'
 import strelka from '../../config/img/strelka.svg'
 import bgCTA from './img/bgCTA.svg'
 import './ctaSection.css'
+import {Link} from "react-router-dom";
 
 export default function CTASection() {
     return (
@@ -21,9 +22,9 @@ export default function CTASection() {
                     достигать целей уже сегодня!
                 </p>
 
-                <button className="cta-section__button">
+                <Link to={'/#contactUs'} className="cta-section__button">
                     Заказать консультацию <img src={strelka} alt="→" />
-                </button>
+                </Link>
             </div>
         </section>
     )

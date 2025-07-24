@@ -7,7 +7,7 @@ export default function Services() {
 
 
     return (
-        <section className="services-section">
+        <section id={"service"} className="services-section">
             <label className="title">Наши услуги</label>
             <div  className="services-section__cards">
                 <div className="services-section__card services-section__card--highlighted"
