@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Giostra_Landing/static/css/main.b125c819.css",
-    "main.js": "/Giostra_Landing/static/js/main.63b84e87.js",
+    "main.css": "/Giostra_Landing/static/css/main.9d21ac51.css",
+    "main.js": "/Giostra_Landing/static/js/main.e30721e1.js",
     "static/js/453.8f8537dd.chunk.js": "/Giostra_Landing/static/js/453.8f8537dd.chunk.js",
     "static/media/bg1.svg": "/Giostra_Landing/static/media/bg1.fc2ffcb09fda3c4941e97d711fc22a1a.svg",
     "static/media/contact.svg": "/Giostra_Landing/static/media/contact.f4fb1c9a0a9516830263a387d17b98f0.svg",
@@ -20,25 +20,24 @@
     "static/media/tg.svg": "/Giostra_Landing/static/media/tg.538f6240d5929e6dec24c3acac781f2a.svg",
     "static/media/stack6.svg": "/Giostra_Landing/static/media/stack6.56f2b2217cb5de3edf67b9c2cc5611c2.svg",
     "static/media/vk.svg": "/Giostra_Landing/static/media/vk.0abc4fdf6b516c00f2be23169634115d.svg",
-    "static/media/item2bg.svg": "/Giostra_Landing/static/media/item2bg.18a9c2a5e877bf6747d351d1d502f6a0.svg",
-    "static/media/item4bg.svg": "/Giostra_Landing/static/media/item4bg.dd560b9717cf17e6b69b68498b2994c8.svg",
-    "static/media/item3bg.svg": "/Giostra_Landing/static/media/item3bg.11ab838c1afde63295ce4cb2c1fc3951.svg",
+    "static/media/item2bg.svg": "/Giostra_Landing/static/media/item2bg.a6af42cab064d5d2641c09792c507267.svg",
     "static/media/telephone.svg": "/Giostra_Landing/static/media/telephone.6361481d63eb71574d42dc3a88a50470.svg",
-    "static/media/item1bg.svg": "/Giostra_Landing/static/media/item1bg.8f07e42ec4e78b0323ffe430a1ca2e0f.svg",
     "static/media/m.svg": "/Giostra_Landing/static/media/m.c4447f5bd4b489d88729483f24a902a5.svg",
     "index.html": "/Giostra_Landing/index.html",
     "static/media/bgCTA.svg": "/Giostra_Landing/static/media/bgCTA.390621f0c4c2a9d946f04085de6b96d6.svg",
     "static/media/title.svg": "/Giostra_Landing/static/media/title.b9a31dfc7d41bc5f94806592430c0e8d.svg",
     "static/media/strelkaInvisible.svg": "/Giostra_Landing/static/media/strelkaInvisible.140a6884c4a31e9124cef74de2bdb2bf.svg",
+    "static/media/item3bg.svg": "/Giostra_Landing/static/media/item3bg.7b75ff1b84ba8c094522e35166f32b4f.svg",
+    "static/media/item1bg.svg": "/Giostra_Landing/static/media/item1bg.68608f20f4f02f07fda704bb289dd05a.svg",
     "static/media/strelkaWhite.svg": "/Giostra_Landing/static/media/strelkaWhite.a5128375d9a38676d423f895d16165e2.svg",
     "static/media/title-section__feature-img.svg": "/Giostra_Landing/static/media/title-section__feature-img.625b4b1ac5ff020d3f5f679b9d3a8932.svg",
     "static/media/strelka.svg": "/Giostra_Landing/static/media/strelka.1375ae10e4555c8ac4ba7b0cbb072938.svg",
-    "main.b125c819.css.map": "/Giostra_Landing/static/css/main.b125c819.css.map",
-    "main.63b84e87.js.map": "/Giostra_Landing/static/js/main.63b84e87.js.map",
+    "main.9d21ac51.css.map": "/Giostra_Landing/static/css/main.9d21ac51.css.map",
+    "main.e30721e1.js.map": "/Giostra_Landing/static/js/main.e30721e1.js.map",
     "453.8f8537dd.chunk.js.map": "/Giostra_Landing/static/js/453.8f8537dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b125c819.css",
-    "static/js/main.63b84e87.js"
+    "static/css/main.9d21ac51.css",
+    "static/js/main.e30721e1.js"
   ]
 }
