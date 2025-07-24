@@ -71,10 +71,14 @@
 }
 
 .contact__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     margin-top: 10%;
     margin-left: 5%;
     align-self: flex-start;
-    padding: 12px 24px;
+    padding: 12px 16px;
     background: none;
     border: 1px dashed var(--contactUs-button--bg--color);
     color: var(--contactUs-button--bg--color);
@@ -84,9 +88,11 @@
     cursor: pointer;
     transition: background 0.3s;
     font-family: Unbounded;
-
 }
-
+.contact__button img{
+    width: 15px;
+    height: 14px;
+}
 .contact__button:hover {
     background: rgba(255, 255, 255, 0.1);
 }

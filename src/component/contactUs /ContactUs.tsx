@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import contact from './img/contact.svg';
 import './contactUs.css';
-import {useScroll} from '../../config/hooks/hookLocate'
+import strelka from "./img/strelkaWhite.svg"
+
 export default function ContactUs() {
     const [formData, setFormData] = useState({
         name: '',
@@ -105,7 +106,7 @@ export default function ContactUs() {
                     ></textarea>
 
                     <button type="submit" className="contact__button">
-                        Начать свой проект →
+                        Начать свой проект <img src={strelka}/>
                     </button>
                 </form>
             </div>
