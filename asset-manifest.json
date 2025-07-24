@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Giostra_Landing/static/css/main.01681279.css",
-    "main.js": "/Giostra_Landing/static/js/main.d75c12d0.js",
+    "main.css": "/Giostra_Landing/static/css/main.a2b00ad7.css",
+    "main.js": "/Giostra_Landing/static/js/main.e8292dc8.js",
     "static/js/453.8f8537dd.chunk.js": "/Giostra_Landing/static/js/453.8f8537dd.chunk.js",
     "static/media/bg1.svg": "/Giostra_Landing/static/media/bg1.fc2ffcb09fda3c4941e97d711fc22a1a.svg",
     "static/media/contact.svg": "/Giostra_Landing/static/media/contact.f4fb1c9a0a9516830263a387d17b98f0.svg",
+    "static/media/icons.svg": "/Giostra_Landing/static/media/icons.7a855edc80541d08e36c7f103229ab80.svg",
     "static/media/bg3.jpg": "/Giostra_Landing/static/media/bg3.0bdd87bb1627d757447a.jpg",
     "static/media/stack2.svg": "/Giostra_Landing/static/media/stack2.af88ef926702ceb98ca489fabe776da1.svg",
     "static/media/stack8.svg": "/Giostra_Landing/static/media/stack8.76ed275dacf874bd0d91cbec8cf5bd4c.svg",
@@ -28,16 +29,16 @@
     "index.html": "/Giostra_Landing/index.html",
     "static/media/bgCTA.svg": "/Giostra_Landing/static/media/bgCTA.390621f0c4c2a9d946f04085de6b96d6.svg",
     "static/media/title.svg": "/Giostra_Landing/static/media/title.b9a31dfc7d41bc5f94806592430c0e8d.svg",
-    "static/media/strelkaInvisible.svg": "/Giostra_Landing/static/media/strelkaInvisible.62601f1dece82d8014817b44ca4e8e20.svg",
+    "static/media/strelkaInvisible.svg": "/Giostra_Landing/static/media/strelkaInvisible.140a6884c4a31e9124cef74de2bdb2bf.svg",
     "static/media/strelkaWhite.svg": "/Giostra_Landing/static/media/strelkaWhite.ac7ba71c27687811de1e27e39e196641.svg",
     "static/media/title-section__feature-img.svg": "/Giostra_Landing/static/media/title-section__feature-img.625b4b1ac5ff020d3f5f679b9d3a8932.svg",
     "static/media/strelka.svg": "/Giostra_Landing/static/media/strelka.1375ae10e4555c8ac4ba7b0cbb072938.svg",
-    "main.01681279.css.map": "/Giostra_Landing/static/css/main.01681279.css.map",
-    "main.d75c12d0.js.map": "/Giostra_Landing/static/js/main.d75c12d0.js.map",
+    "main.a2b00ad7.css.map": "/Giostra_Landing/static/css/main.a2b00ad7.css.map",
+    "main.e8292dc8.js.map": "/Giostra_Landing/static/js/main.e8292dc8.js.map",
     "453.8f8537dd.chunk.js.map": "/Giostra_Landing/static/js/453.8f8537dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01681279.css",
-    "static/js/main.d75c12d0.js"
+    "static/css/main.a2b00ad7.css",
+    "static/js/main.e8292dc8.js"
   ]
 }
