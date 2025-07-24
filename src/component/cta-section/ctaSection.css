@@ -16,7 +16,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 105%;
-    height:auto;
+    height:100%;
     object-fit: cover;
     z-index: 0;
     pointer-events: none;
@@ -26,7 +26,7 @@
 .cta-section__content {
     position: relative;
     z-index: 1;
-    margin-top: 12%;
+    margin-top: 15%;
     max-width: 960px;
     text-align: center;
     display: flex;

@@ -7,6 +7,12 @@ import strelkaInvisible from '../component/services/img/strelkaInvisible.svg'
 
 import bg1Cases from '../component/cases/img/bg1.svg'
 
+import icons1 from '../component/footer/img/tg.svg'
+import icons2 from '../component/footer/img/vk.svg'
+import icons3 from '../component/footer/img/m.svg'
+import icons4 from '../component/footer/img/telephone.svg'
+
+
 
 
 
@@ -106,7 +112,18 @@ export const casesInfo:
     }
 ]
 
-/* reviews */
+/* footer */
+
+export const footerConst:{
+    url: string;
+    img: string;
+}[]=[
+    {url:'',img:icons1},
+    {url:'',img:icons2},
+    {url:'',img:icons3},
+    {url:'',img:icons4},
+
+]
 
 
 

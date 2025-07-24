@@ -1,9 +1,11 @@
-import React from "react";
+import React,{useRef} from "react";
 import { services } from "../../config/config";
 import strelka from "../../config/img/strelka.svg";
 import './services.css'
 
 export default function Services() {
+
+
     return (
         <section className="services-section">
             <h1 className="title">Наши услуги</h1>

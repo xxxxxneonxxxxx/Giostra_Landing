@@ -7,7 +7,7 @@ import AboutUs from "./component/aboutUs/AboutUs";
 import Cases from "./component/cases/Cases";
 import ContactUs from "./component/contactUs /ContactUs";
 import Header from "./component/header/Header";
-
+import Footer from "./component/footer/Footer";
 export default function App() {
   return (
       <div className="App">
@@ -18,6 +18,7 @@ export default function App() {
         <AboutUs />
         <Cases />
         <ContactUs/>
+          <Footer />
       </div>
   );
 }
