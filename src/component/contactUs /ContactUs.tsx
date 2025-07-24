@@ -47,7 +47,7 @@ export default function ContactUs() {
     return (
         <section id={'contactUs'} className="contact">
             <div className="contact__form-block">
-                <h2 className="contact__title">Свяжитесь с нами</h2>
+                <label className="contact__title">Свяжитесь с нами</label>
                 <form className="contact__form" onSubmit={handleSubmit}>
                     <input
                         style={{
@@ -55,7 +55,7 @@ export default function ContactUs() {
                         }}
                         type="text"
                         name="name"
-                        placeholder="Имя"
+                        placeholder="ФИО"
                         className="contact__input"
                         value={formData.name}
                         onChange={handleChange}
@@ -69,7 +69,6 @@ export default function ContactUs() {
                             type="text"
                             name="company"
                             placeholder="Компания"
-                            className="contact__input contact__input--half"
                             value={formData.company}
                             onChange={handleChange}
                         />
@@ -80,7 +79,6 @@ export default function ContactUs() {
                             type="email"
                             name="email"
                             placeholder="Эл. почта"
-                            className="contact__input contact__input--half"
                             value={formData.email}
                             onChange={handleChange}
                         />
@@ -100,7 +98,7 @@ export default function ContactUs() {
 
                     <textarea
                         name="message"
-                        placeholder="Сообщение"
+                        placeholder="Ваши пожелания"
                         className="contact__textarea"
                         value={formData.message}
                         onChange={handleChange}

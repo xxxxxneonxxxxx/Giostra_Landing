@@ -12,13 +12,11 @@ export default function Cases() {
                     className={`cases__list__one`}
                     style={{
                         backgroundImage: casesInfo[0].bg,
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
                     }}
                 >
                     <div className="case__content">
-                        <label className="case__name">{casesInfo[0].name}</label>
-                        <label className="case__description">{casesInfo[0].description}</label>
+                        <label className="case__name_one">{casesInfo[0].name}</label>
+                        <label className="case__description_one">{casesInfo[0].description}</label>
                     </div>
                 </div>
                 <div className="cases__list_two">
@@ -33,7 +31,6 @@ export default function Cases() {
                         <div className="case__content">
                             <label className="case__name">{casesInfo[1].name}</label>
                             <label className="case__description">{casesInfo[1].description}</label>
-
                         </div>
                     </div>
                     <div

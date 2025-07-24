@@ -5,67 +5,74 @@
     width: 95%;
     margin-top: 50px;
     margin-left: 2.5%;
-    height: auto;
     background: var(--contactUs--bg--color);
     color: var(--contactUs-text--color);
     border-radius: 36px;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .contact__form-block {
-    flex: 1;
-    padding: 40px 80px;
-    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+    padding: 64px 88px;
+    width: 50%;
+    box-sizing: border-box;
 }
 
 .contact__title {
-    font-size: 36px;
-    font-weight: 500;
-    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 10%;
 }
 
 .contact__form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
+    gap: 18px;
+    width: 100%;
 }
 
 .contact__input,
-.contact__textarea {
-    padding: 14px 20px;
+.contact__input-row input {
+    width: 90%;
+    padding: 16px 24px;
     border: none;
-    border-radius: 24px;
+    border-radius: 50px;
     font-size: 16px;
-    font-weight: 400;
-}
-
-.contact__input::placeholder,
-.contact__textarea::placeholder {
-    color: var(--contactUs--placeholder--color);
-    font-weight: 400;
+    box-sizing: border-box;
+    font-family: inherit;
 }
 
 .contact__input-row {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
-    gap: 16px;
+    gap: 10px;
+    width: 90%;
 }
 
-.contact__input--half {
+.contact__input-row input {
     flex: 1;
 }
 
 .contact__textarea {
-    height: 120px;
-    resize: none;
+    width: 90%;
+    padding: 16px 24px;
+    border-radius: 20px;
+    font-size: 16px;
+    resize: vertical;
+    min-height: 137px;
+    border: none;
+    font-family: inherit;
+    box-sizing: border-box;
 }
 
 .contact__button {
-    margin-top: 20px;
+    margin-top: 10%;
+    margin-left: 5%;
     align-self: flex-start;
     padding: 12px 24px;
     background: none;
@@ -73,8 +80,11 @@
     color: var(--contactUs-button--bg--color);
     border-radius: 40px;
     font-size: 16px;
+    font-weight: 400;
     cursor: pointer;
     transition: background 0.3s;
+    font-family: Unbounded;
+
 }
 
 .contact__button:hover {
@@ -83,12 +93,11 @@
 
 .contact__image-block {
     flex: 1;
-    background: var(--main-bg--color);
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top-left-radius: 36px;
-    border-bottom-left-radius: 36px;
+    padding: 32px;
+    box-sizing: border-box;
 }
 
 .contact__image {
@@ -96,4 +105,9 @@
     height: auto;
     max-width: 100%;
     object-fit: contain;
+}
+@media (max-width: 1600px) {
+    .contact__title {
+        font-size: 38px;
+    }
 }

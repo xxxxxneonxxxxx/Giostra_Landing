@@ -19,29 +19,26 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     border-radius: 36px;
-    padding: 32px 24px 32px 0px;
+    padding: 32px 0 32px 0;
     flex: 1 1 320px;
     position: relative;
     isolation: isolate;
     min-height: 416px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
     box-sizing: border-box;
 }
-@media (max-width: 1720px) {
-    .services-section__card {
-        flex: 1 1 500px;
-    }
-    .services-section__card--highlighted {
-        flex: 2 1 850px;
-    }
-}
+
 .services-section__card--highlighted {
     flex: 2 1 640px;
 }
 
 .services-section__arrow-button {
     width: 45px;
+    margin-left:85% ;
     height: 45px;
     border: none;
     background-color: transparent;
@@ -49,6 +46,7 @@
 .services-section__arrow-button-inv{
     width: 60px;
     height: 60px;
+    margin-left:68% ;
     position: relative;
     top: -10px;
     border: none;
@@ -59,8 +57,6 @@
 .services-section__arrow-button-inv img{
     width: 60px;
     height: 60px;
-
-
 }
 .services-section__arrow-button img {
     width: 45px;
@@ -73,10 +69,11 @@
     gap: 24px;
     align-items: flex-start;
     z-index: 1;
-    max-width: 90%;
+    max-width: calc(100% - 48px);
 }
 
 .services-section__name {
+
     font-size: 32px;
     font-weight: 400;
     line-height: 1.25;
@@ -84,6 +81,7 @@
 }
 
 .services-section__description {
+
     font-weight: 300;
     font-size: 14px;
     line-height: 1.4;
@@ -94,11 +92,14 @@
     background: var(--services-text--color);
     border-radius: 50px;
     padding: 10px 20px;
+    font-family: 'Unbounded';
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 8px;
-    font-weight: 400;
+    width: 100%;
+    font-weight: 300;
     font-size: 14px;
     color: var(--main--text--color);
     border: none;
@@ -108,4 +109,20 @@
 .services-section__action-button img {
     width: 19px;
     height: 19px;
+}
+
+@media (max-width: 1720px) {
+    .services-section__card {
+        flex: 1 1 30%;
+    }
+    .services-section__card--highlighted{
+        flex: 2 1 50%;
+    }
+    .services-section__arrow-button-inv{
+        margin-left: 82%;
+    }
+    .services-section__content{
+        max-width: calc(100% - 64px);
+    }
+
 }

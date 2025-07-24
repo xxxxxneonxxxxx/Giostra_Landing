@@ -44,7 +44,7 @@ export default function Title() {
             </div>
 
             <div className="title-section__visual-block">
-                <img src={title} alt="Title" className="title-section__image" />
+                <img src={title}  className="title-section__image" />
                 <div className="title-section__visual-block__bottom">
                     <div className="title-section__features">
                         <div className="title-section__feature" style={{    background: "#1E1F26"

@@ -46,23 +46,24 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
     width: 298px;
-    height: 48px;
     padding: 12px 16px;
+    gap: 10px;
     border: 1px solid var(--main--text--color);
     color: var(--main--text--color);
     border-radius: 30px;
     background: transparent;
     text-decoration: none;
+    font-weight: 300;
     font-size: 16px;
+    line-height: 20px;
     cursor: pointer;
     transition: opacity 0.6s ease;
 }
 
 .cta-section__button img {
-    width: 18px;
-    height: 18px;
+    width: 24px;
+    height: 24px;
     object-fit: contain;
 }
 
