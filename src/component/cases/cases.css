@@ -24,7 +24,23 @@
     background-repeat: no-repeat;
     position: relative;
 }
+.case__name_one {
+    position: absolute;
+    top: 82%;
+    font-size: 48px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0 0 8px 0;
+}
 
+.case__description_one {
+    position: absolute;
+    top: 92%;
+    width: 75%;
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+}
 .cases__list__four {
     width: 25%;
     height: 100%;
@@ -72,23 +88,6 @@
     display: block;
 }
 
-.case__name_one {
-    position: absolute;
-    top: 82%;
-    font-size: 48px;
-    font-weight: 400;
-    color: #000000;
-    margin: 0 0 8px 0;
-}
-
-.case__description_one {
-    position: absolute;
-    top: 92%;
-    width: 75%;
-    font-size: 18px;
-    font-weight: 300;
-    color: #000000;
-}
 
 @media (max-width: 1700px) {
     .case__description_one{

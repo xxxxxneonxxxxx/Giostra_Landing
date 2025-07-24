@@ -2,7 +2,6 @@ import bgServices1 from '../component/services/img/item1bg.svg'
 import bgServices2 from '../component/services/img/item2bg.svg'
 import bgServices3 from '../component/services/img/item3bg.svg'
 import bgServices4 from '../component/services/img/item4bg.svg'
-import strelkaWhite from '../component/services/img/strelkaWhite.svg'
 import strelkaInvisible from '../component/services/img/strelkaInvisible.svg'
 
 import bg1Cases from '../component/cases/img/bg1.svg'
@@ -35,23 +34,20 @@ export const services:
         description: string;
         url: string;
         bg: string;
-        strelka: string;
     }[]= [
     {
         name: "Веб-разработка",
         description:
             "Разработка и дизайн сайтов под ваши нужды. Индивидуальный подход к каждому проекту и непрерывная связь с клиентами",
         url: "",
-        bg: bgServices1,
-        strelka:strelkaWhite
+        bg: bgServices2,
     },
     {
         name: "Бренд-дизайн",
         description:
             "Разработка и дизайн сайтов под ваши нужды. Индивидуальный подход к каждому проекту и непрерывная связь с клиентами",
         url: "",
-        bg: bgServices2,
-        strelka:strelkaInvisible,
+        bg: bgServices3,
     },
     {
         name: "Интернет-маркетинг",
@@ -59,7 +55,6 @@ export const services:
             "Разработка и дизайн сайтов под ваши нужды. Индивидуальный подход к каждому проекту и непрерывная связь с клиентами",
         url: "",
         bg: bgServices3,
-        strelka:strelkaInvisible,
 
     },
     {
@@ -68,7 +63,6 @@ export const services:
             "Разработка и дизайн сайтов под ваши нужды. Индивидуальный подход к каждому проекту и непрерывная связь с клиентами",
         url: "",
         bg: bgServices4,
-        strelka:strelkaInvisible,
 
     }
 ];

@@ -1,43 +1,59 @@
-import React,{useRef} from "react";
+import React,{useRef,useState} from "react";
 import { services } from "../../config/config";
-import strelka from "../../config/img/strelka.svg";
+import strelkaActiv from './img/strelkaWhite.svg'
+import strelkaInActiv from './img/strelkaInvisible.svg'
+import strelka from '../../config/img/strelka.svg'
+import activBg from './img/item1bg.svg'
 import './services.css'
+import {motion,useAnimation} from "framer-motion";
 
 export default function Services() {
-
+    const activDiv=useRef([
+        useAnimation(),
+        useAnimation(),
+        useAnimation(),
+        useAnimation()
+    ]).current;
+    const [activ, setActiv] = useState<number|null>(null);
 
     return (
         <section id={"service"} className="services-section">
             <label className="title">Наши услуги</label>
             <div  className="services-section__cards">
-                <div className="services-section__card services-section__card--highlighted"
-                     style={{
-                         backgroundImage: `url(${services[0].bg})`,
-                         backgroundSize: 'cover',
-                         backgroundPosition: 'center'
-                     }}
-                >
-                    <button className="services-section__arrow-button"
-                            style={{backgroundImage: `url(${services[0].strelka})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
-                    </button>
+                {services.map((item, index) => (
+                    <motion.div key={index}
+                                className="services-section__card"
+                                style={{
+                                    backgroundImage: `url(${item.bg})`,
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center'
+                    }}
+                                onMouseEnter={()=>{
+                                    setActiv(index);
+                                    activDiv[index].start({
+                                        width: ['25%','40%'],
+                                        backgroundImage: `url(${activBg})`,
+                                        transition:{
+                                            duration:1,
+                                            ease:"linear",
+                                        }
+                                    })
 
-                    <div className="services-section__content">
-                        <h2 className="services-section__name">{services[0].name}</h2>
-                        <p className="services-section__description">{services[0].description}</p>
-                        <button className="services-section__action-button">
-                            Оставить заявку <img src={strelka} alt="→" />
-                        </button>
-                    </div>
-                </div>
-
-                {services.slice(1).map((item, index) => (
-                    <div key={index} className="services-section__card" style={{
-                        backgroundImage: `url(${item.bg})`,
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center'
-                    }}>
-                        <button className="services-section__arrow-button-inv">
-                            <img src={item.strelka}/>
+                                }}
+                                onMouseLeave={()=>{
+                                    setActiv(null);
+                                    activDiv[index].start({
+                                        backgroundImage:`url(${services[index].bg})`,
+                                        width: '25%',
+                                        transition:{
+                                            duration:1,
+                                            ease:"linear",
+                                        }
+                                    })
+                                }}
+                                animate={activDiv[index]}
+                    >
+                        <button className={activ === index ? "services-section__arrow-button" : "services-section__arrow-button-inv"}>                            <img src={activ===index?strelkaActiv:strelkaInActiv}/>
                         </button>
 
                         <div className="services-section__content">
@@ -47,7 +63,7 @@ export default function Services() {
                                 Оставить заявку <img src={strelka}/>
                             </button>
                         </div>
-                    </div>
+                    </motion.div>
                 ))}
             </div>
         </section>
