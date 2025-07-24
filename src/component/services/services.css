@@ -12,21 +12,25 @@
 .services-section__cards {
     display: flex;
     flex-direction: row;
+    position: relative;
     gap: 16px;
 }
 
 .services-section__card {
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     border-radius: 36px;
     padding: 32px 0 32px 0;
+    height: 452px;
     position: relative;
     isolation: isolate;
     width: 25%;
     font-weight: 400;
     font-size: 14px;
+    background-color: #88A7D4;
     line-height: 17px;
     box-sizing: border-box;
 }
@@ -59,10 +63,12 @@
 }
 
 .services-section__content {
+    object-fit: cover;
     display: flex;
+    gap: 12px;
     flex-direction: column;
-    gap: 24px;
     align-items: flex-start;
+    position: relative;
     z-index: 1;
     max-width: calc(100% - 48px);
 }
@@ -72,7 +78,6 @@
     font-weight: 400;
     width: 85%;
     line-height: 1.25;
-    margin: 0;
 }
 @media screen and (max-width: 1500px) {
     .services-section__name{
@@ -84,7 +89,6 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 1.4;
-    margin: 0;
 }
 
 .services-section__action-button {
@@ -107,4 +111,11 @@
 .services-section__action-button img {
     width: 19px;
     height: 19px;
+}
+.services-section__content-img{
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    bottom: 120%;
+    left: -90%;
 }
