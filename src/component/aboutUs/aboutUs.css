@@ -33,8 +33,8 @@
 
 .about-us__title {
     position: absolute;
-    top: 276px;
-    left: 34px;
+    top: 42%;
+    left: 5%;
     font-size: 32px;
     line-height: 40px;
     font-weight: 400;
@@ -43,8 +43,8 @@
 
 .about-us__text {
     position: absolute;
-    top: 333px;
-    left: 34px;
+    top: 52%;
+    left: 5%;
     width: 90%;
     font-size: 20px;
     line-height: 25px;
@@ -53,8 +53,8 @@
 
 .about-us__button {
     position: absolute;
-    top: 464px;
-    left: 34px;
+    top:88%;
+    left: 5%;
     background: var(--title-button-bg--color);
     color: var(--title-button-text--color);
     border: none;
@@ -76,7 +76,7 @@
     width: 100%;
     height: 254px;
     border-radius: 36px;
-    padding: 47px;
+    padding: 2.5% 10%;
     box-sizing: border-box;
     position: relative;
 }
@@ -88,9 +88,3 @@
     width: 70%;
 }
 
-.about-us__icons {
-    width: 32%;
-    height: 528px;
-    background: #1E1F26;
-    border-radius: 36px;
-}

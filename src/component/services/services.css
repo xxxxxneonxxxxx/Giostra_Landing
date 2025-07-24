@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
+    margin-bottom: 50px;
     width: 95%;
     margin-left: 2.5%;
     color: var(--services-text--color);
@@ -40,15 +41,30 @@
 }
 
 .services-section__arrow-button {
-    background: transparent;
-    border: none;
     width: 45px;
     height: 45px;
+    border: none;
+    background-color: transparent;
 }
+.services-section__arrow-button-inv{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: -10px;
+    border: none;
+    background-color: transparent;
+    object-fit: cover;
+    object-position: center;
+}
+.services-section__arrow-button-inv img{
+    width: 60px;
+    height: 60px;
 
+
+}
 .services-section__arrow-button img {
-    width: 16px;
-    height: 16px;
+    width: 45px;
+    height: 45px;
 }
 
 .services-section__content {

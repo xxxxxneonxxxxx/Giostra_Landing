@@ -5,7 +5,7 @@ import './cases.css';
 export default function Cases() {
     return (
         <section className="cases">
-            <h1 className="cases__title">Кейсы</h1>
+            <h1 className="title">Кейсы</h1>
 
             <div className="cases__list">
                 <div

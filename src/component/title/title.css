@@ -34,22 +34,29 @@
     display: flex;
     gap: 24px;
     align-items: center;
+
 }
 
 .title-section__contact-button {
-    padding: 12px 24px;
+    width: 159px;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
     border: none;
+    font-size: 24px;
     border-radius: 30px;
     background: var(--main--text--color);
     color: var(--main-bg--color);
-    font-size: 14px;
     cursor: pointer;
 }
 
 .title-section__more-link {
-    font-size: 14px;
+    font-size: 20px;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .title-section__visual-block {

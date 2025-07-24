@@ -2,12 +2,12 @@ import React from "react";
 import bg1 from './img/bg1.svg'
 import bg2 from './img/bg2.svg'
 import bg3 from './img/bg3.jpg'
-
+import Icons from "./component/Icons";
 import './aboutUs.css'
 export default function AboutUs() {
     return (
         <section className="about-us">
-            <h1 className={'title'}>О нас</h1>
+            <label className={'title'}>О нас</label>
             <div className={'about-us__content'}>
                 <div
                     className="about-us__block about-us__block--main"
@@ -34,7 +34,7 @@ export default function AboutUs() {
                             backgroundPosition: 'center'
                         }}
                     >
-                        <h3 className="about-us__subtitle">Индивидуальный подход к клиенту</h3>
+                        <h3 className="about-us__subtitle">Индивиду <br/>альный <br/> подход к клиенту</h3>
                     </div>
 
                     <div
@@ -44,10 +44,12 @@ export default function AboutUs() {
                             backgroundSize: 'cover',
                             backgroundPosition: 'center'
                         }}
-                    />
-                </div>
+                    >
 
-                <div className="about-us__icons" />
+                    </div>
+
+                </div>
+                <Icons/>
             </div>
         </section>
     );

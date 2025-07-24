@@ -8,7 +8,7 @@ export default function Services() {
 
     return (
         <section className="services-section">
-            <h1 className="title">Наши услуги</h1>
+            <label className="title">Наши услуги</label>
             <div  className="services-section__cards">
                 <div className="services-section__card services-section__card--highlighted"
                      style={{
@@ -36,19 +36,15 @@ export default function Services() {
                         backgroundSize: 'cover',
                         backgroundPosition: 'center'
                     }}>
-                        <button className="services-section__arrow-button"
-                                style={{
-                                    backgroundImage: `url(${item.strelka})`,
-                                    backgroundSize: 'cover',
-                                    backgroundPosition: 'center'
-                                }}>
+                        <button className="services-section__arrow-button-inv">
+                            <img src={item.strelka}/>
                         </button>
 
                         <div className="services-section__content">
                             <h2 className="services-section__name">{item.name}</h2>
                             <p className="services-section__description">{item.description}</p>
                             <button className="services-section__action-button">
-                                Оставить заявку <img src={strelka} alt="→" />
+                                Оставить заявку <img src={strelka}/>
                             </button>
                         </div>
                     </div>

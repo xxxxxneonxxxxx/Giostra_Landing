@@ -5,12 +5,15 @@ import './ctaSection.css'
 
 export default function CTASection() {
     return (
-        <section className="cta-section">
-            <img src={bgCTA} alt="" className="cta-section__background" />
+        <section className="cta-section"
+                 style={{
+                     backgroundImage: `url(${bgCTA})`,
+                 }}
+        >
             <div className="cta-section__content">
-                <h2 className="cta-section__title">
+                <label className="cta-section__title">
                     Получить результат<br />возможно уже сегодня!
-                </h2>
+                </label>
 
                 <p className="cta-section__description">
                     Наши эксперты готовы разработать стратегии, которые приведут к результатам в<br />

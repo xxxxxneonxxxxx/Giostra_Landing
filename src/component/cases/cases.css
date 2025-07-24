@@ -2,16 +2,11 @@
     width: 95%;
     margin-left: 2.5%;
     position: relative;
+    margin-bottom: 50px;
     color: var(--main--text--color);
     background-color: var(--main-bg--color);
 }
 
-.cases__title {
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 60px;
-    margin-bottom: 32px;
-}
 
 .cases__list {
     width: 100%;
