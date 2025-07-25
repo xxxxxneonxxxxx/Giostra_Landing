@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import title from './img/title.svg';
 import titleSectionFeatureImg from './img/title-section__feature-img.svg';
 import './title.css'
-import { numberOfSpecialists, sloganTitle } from '../../config/config';
+import { numberOfSpecialists, sloganTitle } from '../../config/constType';
 import stackBg1 from './img/stack1.svg';
 import stackBg2 from './img/stack2.svg';
 import stackBg3 from './img/stack3.svg';

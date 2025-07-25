@@ -1,5 +1,5 @@
 import React from "react";
-import { casesInfo } from "../../config/config";
+import { casesInfo } from "../../config/constType";
 import './cases.css';
 
 export default function Cases() {

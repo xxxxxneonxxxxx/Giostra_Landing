@@ -11,6 +11,8 @@ import icons2 from '../component/footer/img/vk.svg'
 import icons3 from '../component/footer/img/m.svg'
 import icons4 from '../component/footer/img/telephone.svg'
 
+import imgUser from '../component/reviews/img/imgUser.svg'
+
 import aboutUsBg1 from '../component/aboutUs/component/infoBlock/img/bg1.svg'
 import aboutUsBg2 from '../component/aboutUs/component/infoBlock/img/bg2.svg'
 import aboutUsBg3 from '../component/aboutUs/component/infoBlock/img/bg3.svg'
@@ -134,6 +136,51 @@ export const aboutInfo: {
     }
 ];
 
+/* Reviews */
+
+const reviewseType:{
+    userName:string,
+    countStars:number,
+    url:string,
+    description:string,
+}[]=[
+    {
+        userName:'Мария Приколовна',
+        countStars:4,
+        url:imgUser,
+        description:'Разработка и дизайн сайтов под ваши нужды.  Индивидуальный подход к каждому проекту и непрерывная связь с клиентами. Разработка и дизайн сайтов под ваши нужды.  Индивидуальный подход к каждому проекту и непрерывная связь с клиентами'
+    },
+    {
+        userName:'Мария Приколовна',
+        countStars:4,
+        url:imgUser,
+        description:'Разработка и дизайн сайтов под ваши нужды.  Индивидуальный подход к каждому проекту и непрерывная связь с клиентами. Разработка и дизайн сайтов под ваши нужды.  Индивидуальный подход к каждому проекту и непрерывная связь с клиентами'
+    },
+    {
+        userName:'Мария Приколовна',
+        countStars:4,
+        url:imgUser,
+        description:'Разработка и дизайн сайтов под ваши нужды.  Индивидуальный подход к каждому проекту и непрерывная связь с клиентами. Разработка и дизайн сайтов под ваши нужды.  Индивидуальный подход к каждому проекту и непрерывная связь с клиентами'
+    },
+    {
+        userName:'Мария Приколовна',
+        countStars:4,
+        url:imgUser,
+        description:'Разработка и дизайн сайтов под ваши нужды.  Индивидуальный подход к каждому проекту и непрерывная связь с клиентами. Разработка и дизайн сайтов под ваши нужды.  Индивидуальный подход к каждому проекту и непрерывная связь с клиентами'
+    },
+    {
+        userName:'Мария Приколовна',
+        countStars:4,
+        url:imgUser,
+        description:'Разработка и дизайн сайтов под ваши нужды.  Индивидуальный подход к каждому проекту и непрерывная связь с клиентами. Разработка и дизайн сайтов под ваши нужды.  Индивидуальный подход к каждому проекту и непрерывная связь с клиентами'
+    },
+    {
+        userName:'Мария Приколовна',
+        countStars:4,
+        url:imgUser,
+        description:'Разработка и дизайн сайтов под ваши нужды.  Индивидуальный подход к каждому проекту и непрерывная связь с клиентами. Разработка и дизайн сайтов под ваши нужды.  Индивидуальный подход к каждому проекту и непрерывная связь с клиентами'
+    }
+]
 
 
 /* footer */

@@ -1,5 +1,5 @@
 import React from 'react';
-import { footerConst } from "../../config/config";
+import { footerConst } from "../../config/constType";
 import './footer.css'
 import {Link} from "react-router-dom";
 export default function Footer() {
