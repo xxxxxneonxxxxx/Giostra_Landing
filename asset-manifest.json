@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Giostra_Landing/static/css/main.0632d74a.css",
-    "main.js": "/Giostra_Landing/static/js/main.4b0dc641.js",
+    "main.css": "/Giostra_Landing/static/css/main.094f9219.css",
+    "main.js": "/Giostra_Landing/static/js/main.bb396e84.js",
     "static/js/453.8f8537dd.chunk.js": "/Giostra_Landing/static/js/453.8f8537dd.chunk.js",
     "static/media/imgAboutAs.svg": "/Giostra_Landing/static/media/imgAboutAs.7232e2f4049aaaa7657da014ba1101cb.svg",
     "static/media/bg1.svg": "/Giostra_Landing/static/media/bg1.01c609e443dee7ffeaaefc878f64faa5.svg",
@@ -25,6 +25,7 @@
     "static/media/item2bg.svg": "/Giostra_Landing/static/media/item2bg.a6af42cab064d5d2641c09792c507267.svg",
     "static/media/bg3.svg": "/Giostra_Landing/static/media/bg3.4faaee0eb8c7aafbb637b5c76042a0c7.svg",
     "static/media/telephone.svg": "/Giostra_Landing/static/media/telephone.6361481d63eb71574d42dc3a88a50470.svg",
+    "static/media/bgIcons.svg": "/Giostra_Landing/static/media/bgIcons.98345aba5b454bd1d5b42f1251578f4c.svg",
     "static/media/flowerWhite.svg": "/Giostra_Landing/static/media/flowerWhite.42dd3eda92051b8abb627d5c9b6af0bb.svg",
     "static/media/flowerGray.svg": "/Giostra_Landing/static/media/flowerGray.6e73f6db98bc2e6b46051405da336281.svg",
     "static/media/m.svg": "/Giostra_Landing/static/media/m.c4447f5bd4b489d88729483f24a902a5.svg",
@@ -39,12 +40,12 @@
     "static/media/strelkaWhite.svg": "/Giostra_Landing/static/media/strelkaWhite.a5128375d9a38676d423f895d16165e2.svg",
     "static/media/title-section__feature-img.svg": "/Giostra_Landing/static/media/title-section__feature-img.625b4b1ac5ff020d3f5f679b9d3a8932.svg",
     "static/media/strelka.svg": "/Giostra_Landing/static/media/strelka.1375ae10e4555c8ac4ba7b0cbb072938.svg",
-    "main.0632d74a.css.map": "/Giostra_Landing/static/css/main.0632d74a.css.map",
-    "main.4b0dc641.js.map": "/Giostra_Landing/static/js/main.4b0dc641.js.map",
+    "main.094f9219.css.map": "/Giostra_Landing/static/css/main.094f9219.css.map",
+    "main.bb396e84.js.map": "/Giostra_Landing/static/js/main.bb396e84.js.map",
     "453.8f8537dd.chunk.js.map": "/Giostra_Landing/static/js/453.8f8537dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0632d74a.css",
-    "static/js/main.4b0dc641.js"
+    "static/css/main.094f9219.css",
+    "static/js/main.bb396e84.js"
   ]
 }
