@@ -107,14 +107,16 @@ export default function Services() {
                             <button className="services-section__action-button">
                                 Оставить заявку <img src={strelka}/>
                             </button>
-                            <motion.img src={flowerActiv1} className={'services-section__content-img'}
-                            style={{
-                                display:`${activ === index?'flex':'none'}`,
-                            }}
-                                        initial={{
-                                            y:-250
-                                        }}
-                                        animate={activImg[index]}
+                            <motion.img
+                                src={flowerActiv1}
+                                className={'services-section__content-img'}
+                                style={{
+                                    display:`${activ === index?'flex':'none'}`,
+                                }}
+                                initial={{
+                                    y:-250
+                                }}
+                                animate={activImg[index]}
                             />
                         </div>
                     </motion.div>

@@ -1,8 +1,9 @@
 import React from "react";
 import bg1 from './img/bg1.svg'
-import bg2 from './img/bg2.svg'
 import bg3 from './img/bg3.jpg'
-import Icons from "./component/Icons";
+import imgAboutAs from './img/imgAboutAs.svg'
+import Icons from "./component/icons /Icons";
+import InfoBlock from "./component/infoBlock/InfoBlock";
 import './aboutUs.css'
 export default function AboutUs() {
     return (
@@ -10,15 +11,15 @@ export default function AboutUs() {
             <label className={'title'}>О нас</label>
             <div className={'about-us__content'}>
                 <div
-                    className="about-us__block about-us__block--main"
+                    className=" about-us__block--main"
                     style={{
                         backgroundImage: `url(${bg1})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center'
                     }}
                 >
-                    <img className="about-us__image" alt="" />
-                    <h2 className="about-us__title">Giostra это мы</h2>
+                    <img className="about-us__image" alt="" src={imgAboutAs} />
+                    <label className="about-us__title">Giostra это мы</label>
                     <p className="about-us__text">
                         В далёкой стране, где горы касаются небес, а реки несут свои воды сквозь тысячелетия, жил юноша по имени Эйнар.
                     </p>
@@ -26,17 +27,7 @@ export default function AboutUs() {
                 </div>
 
                 <div className="about-us__double">
-                    <div
-                        className="about-us__block"
-                        style={{
-                            backgroundImage: `url(${bg2})`,
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center'
-                        }}
-                    >
-                        <h3 className="about-us__subtitle">Индивиду <br/>альный <br/> подход к клиенту</h3>
-                    </div>
-
+                    <InfoBlock />
                     <div
                         className="about-us__block"
                         style={{
