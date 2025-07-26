@@ -7,21 +7,9 @@ import flowerActiv2 from './img/item3bg.svg'
 
 import strelka from '../../config/img/strelka.svg'
 import './services.css'
-import {motion,useAnimation} from "framer-motion";
+import {motion} from "framer-motion";
 
 export default function Services() {
-    const activImgSmall=useRef([
-        useAnimation(),
-        useAnimation(),
-        useAnimation(),
-        useAnimation()
-    ]).current;
-    const activImgBig=useRef([
-        useAnimation(),
-        useAnimation(),
-        useAnimation(),
-        useAnimation()
-    ]).current;
     const [activ, setActiv] = useState<number|null>(null);
 
     return (
@@ -30,41 +18,17 @@ export default function Services() {
             <div  className="services-section__cards">
                 {services.map((item, index) => (
                     <motion.div
+                        layout
                         key={index}
                         className="services-section__card"
-                        onMouseEnter={() => {
-                            setActiv(index)
-                            activImgBig[index].start({
-                                y:[-250,40,0,20,10],
-                                transition:{
-                                    duration:0.6,
-                                    ease:"easeInOut",
-                                }
-                            })
-                            activImgSmall[index].start({
-                                x:[250,-20,40,-10,10,0],
-                                transition:{
-                                    duration:1,
-                                    ease:"easeInOut",
-                                }
-                            })
-                        }}
-                        onMouseLeave={() => {
-                            setActiv(null)
-                            activImgBig[index].start({
-                                y:-250,
-                                transition:{
-                                    duration:0.3,
-                                    ease:"linear",
-                                }
-                            })
-                        }}
+                        onMouseEnter={() => {setActiv(index)}}
+                        onMouseLeave={() => {setActiv(null)}}
                         animate={{
                             flex: activ === null
                                 ? '0 0 calc(25% - 16px)'
                                 : activ === index
-                                    ? '0 0 calc(40% - 16px)'
-                                    : '0 0 calc(20% - 16px)',
+                                    ? '0 0 calc(35% - 8px)'
+                                    : '0 0 calc(21% - 8px)',
                             backgroundImage: `url(${item.bg})`,
                             backgroundSize: activ === index ? '25%' : '100%',
                             backgroundColor: activ === index ? '#A3A7E3' : '#88A7D4',
@@ -80,20 +44,30 @@ export default function Services() {
                                     : index === 3
                                         ? 'calc(100% + 500px) 50%'
                                         : '50% 600px',
-                            transition: { duration: 0.4, ease: 'easeInOut' }
+                            transition: {
+                                flex: {type: "spring",
+                                    bounce: 0.5,
+                                },
+
+                                duration: 0.4,
+                                ease: 'easeInOut' }
                         }}
                     >
-                        <button className={activ === index ? "services-section__arrow-button" : "services-section__arrow-button-inv"}>
-                            <img src={activ===index?strelkaActiv:strelkaInActiv}/>
+                        <button className={activ === index ? "services-section__arrow-button" : "services-section__arrow-button-inv"}
+                        >
+                            <motion.img
+                                src={activ===index?strelkaActiv:strelkaInActiv}
+
+                            />
                         </button>
 
-                        <div className="services-section__content">
+                        <motion.div
+                            animate={activ !== index ? { top: [0,'10px','-10px',0] } : { top:0 }}
+                            transition={{ duration: 0.6 }}
+                            className="services-section__content"
+                        >
                             <div>
-                                <label
-                                    style={{
-                                        fontSize:`${activ===3?'20px':''}`,
-                                    }}
-                                    className="services-section__name">{item.name}</label>
+                                <label className="services-section__name">{item.name}</label>
                                 <p className="services-section__description">{item.description}</p>
                             </div>
                             <button className="services-section__action-button">
@@ -101,15 +75,14 @@ export default function Services() {
                             </button>
                             <motion.img
                                 src={flowerActiv1}
+                                initial={{ y: -200 }}
+                                animate={activ === index ? { y: [-250,-240,40,-20,0] } : { y: -250 }}
+                                transition={{ duration: 0.5 }}
                                 className={'services-section__content-img'}
                                 style={{
                                     display:`${activ === index?'flex':'none'}`,
                                 }}
-                                initial={{
-                                    y:-250
-                                }}
-                                animate={activImgBig[index]}
-                            />
+                                />
                             <motion.img
                                 src={flowerActiv2}
                                 className={'services-section__content-img1'}
@@ -119,9 +92,10 @@ export default function Services() {
                                 initial={{
                                     x:-250
                                 }}
-                                animate={activImgSmall[index]}
+                                animate={activ === index ? {x:[250,240,-20,10,0],} : { x: 250 }}
+                                transition={{ duration: 0.5 }}
                             />
-                        </div>
+                        </motion.div>
                     </motion.div>
                 ))}
             </div>

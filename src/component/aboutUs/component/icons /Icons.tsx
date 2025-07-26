@@ -22,10 +22,11 @@ export default function Icons(){
         >
 
             <motion.label
+                layout="position"
                 className={'about-us__icons-text'}
                 whileInView={{
-                    x: [0,70,70,0,0],
-                    y: [0,0,445,445,0],
+                    x: ['0%','25%','25%','0%','0%'],
+                    y: ['0%','0%','1080%','1080%','0%'],
                     opacity: 1,
                 }}
                 transition={{
@@ -40,8 +41,8 @@ export default function Icons(){
             <motion.img
                 src={icons}
                 whileInView={{
-                    x: [0,-200,-200,-200,-200,0,0,0,0],
-                    y: [0,0,0,-140,-140,-140,-140,0,0],
+                    x: ['0%','-45%','-45%','-45%','-45%','0%','0%','0%','0%'],
+                    y: ['0%','0%','0%','-30%','-30%','-30%','-30%','0%','0%'],
                     opacity: 1,
                 }}
                 transition={{

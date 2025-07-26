@@ -3,11 +3,17 @@ import './header.css';
 import img from './img/avatar.svg'
 
 export default function Header() {
-    const [indefication, setIndefication] = React.useState(true);
+    const [indefication, setIndefication] = React.useState(false);
     return (
-        <header className="header">
+        <header className="header"
+        >
             <label className="header__logo">Giostra</label>
-            <div className="header__menu">
+            <div className="header__menu"
+                 style={{
+                     gap:`${indefication?'5%':'3%'}`,
+                 }}
+
+            >
                 <nav className="header__nav">
                     <label className="header__link">Услуги</label>
                     <label className="header__link">Портфолио</label>

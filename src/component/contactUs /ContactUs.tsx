@@ -104,6 +104,7 @@ export default function ContactUs() {
                         value={formData.message}
                         onChange={handleChange}
                     ></textarea>
+                    <label className="contact__text">Отправляя заявку вы соглашаетесь с Политикой конфиденциальности</label>
 
                     <button type="submit" className="contact__button">
                         Начать свой проект <img src={strelka}/>

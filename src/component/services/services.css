@@ -23,14 +23,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     border-radius: 36px;
     padding: 32px 0 32px 0;
     height: 452px;
     position: relative;
     isolation: isolate;
-    width: 80%;
-    font-weight: 400;
+    width: 100%;
     font-size: 14px;
     background-color: #88A7D4;
     line-height: 17px;
@@ -38,16 +36,29 @@
 }
 
 .services-section__arrow-button {
+    position: relative;
     width: 30px;
-    margin-left:75% ;
+    left:87% ;
     height: 30px;
     border: none;
     background-color: transparent;
 }
+@media screen and (max-width: 1624px) {
+    .services-section__arrow-button{
+        left:85% ;
+
+    }
+}
+@media screen and (max-width: 1324px) {
+    .services-section__arrow-button{
+        left:84% ;
+
+    }
+}
 .services-section__arrow-button-inv{
     width: 60px;
     height: 60px;
-    margin-left:68% ;
+    margin-left:75% ;
     position: relative;
     top: -10px;
     border: none;
@@ -68,18 +79,21 @@
     object-fit: cover;
     display: flex;
     gap: 12px;
-    width: 100%;
+    width: 90%;
     flex-direction: column;
+    margin-left: 5%;
     align-items: flex-start;
     position: relative;
     z-index: 1;
-    max-width: calc(100% - 48px);
 }
 
 .services-section__name {
+    position: relative;
     font-size: 32px;
     font-weight: 400;
-    width: 85%;
+    height: auto;
+    width: 100%;
+    text-wrap: balance;
     line-height: 1.25;
 }
 @media screen and (max-width: 1500px) {
@@ -89,9 +103,10 @@
     }
 }
 .services-section__description {
-    font-weight: 300;
+    text-align: left;
     font-size: 14px;
     width: 100%;
+    text-wrap: balance;
     line-height: 1.4;
 }
 
@@ -99,14 +114,15 @@
     background: var(--services-text--color);
     border-radius: 50px;
     padding: 10px 20px;
-    font-family: Unbounded sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 8px;
     width: 100%;
-    font-weight: 300;
-    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 12px;
+    line-height: 17px;
     color: var(--main--text--color);
     border: none;
     cursor: pointer;
